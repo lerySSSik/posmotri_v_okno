@@ -57,6 +57,7 @@ ol {
   display: flex;
   flex-direction: column;
   margin-bottom: 70px;
+  min-height: 534px;
 }
 
 .result {
@@ -85,6 +86,7 @@ ol {
   max-height: 304px;
   scrollbar-width: none;
   margin-top: 17px;
+  height: 298px;
 }
 
 .result__video-container {
@@ -121,6 +123,7 @@ ol {
   font-weight: 700;
   line-height: 70.5px;
   text-transform: uppercase;
+  position: relative;
   
 }
 
@@ -200,7 +203,7 @@ ol {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-
+  max-width: 200px;
 }
 
 .content__video-card-description {
